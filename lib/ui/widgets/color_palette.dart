@@ -42,7 +42,7 @@ class ColorPalette extends StatelessWidget {
                   )),
             ),
             Expanded(
-              flex: 4,
+              flex: 3,
               child: GestureDetector(
                   onTap: () => callback(baseColor2),
                   child: Container(
@@ -51,7 +51,7 @@ class ColorPalette extends StatelessWidget {
                   )),
             ),
             Expanded(
-              flex: 4,
+              flex: 2,
               child: GestureDetector(
                   onTap: () => callback(baseColor3),
                   child: Container(
@@ -60,7 +60,7 @@ class ColorPalette extends StatelessWidget {
                   )),
             ),
             Expanded(
-              flex: 4,
+              flex: 1,
               child: GestureDetector(
                   onTap: () => callback(baseColor4),
                   child: Container(
